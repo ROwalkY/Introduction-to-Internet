@@ -1,5 +1,5 @@
-# Introduction-to-Internet
-<h1>Basic Web desgin works</h1>
+<h1>Introduction-to-Internet</h1>
+<h2>Basic Web desgin works</h2>
 <ul>
   <li><b>Course: </b>&emsp;60-205</li>
   <li><b>Project: </b>&emsp;Online Portfolio by HTML and CSS</li>
