@@ -1,0 +1,182 @@
+*{
+
+  box-sizing: border-box;
+
+}
+
+.white{
+
+  font-family: 'Raleway', sans-serif;
+
+  padding-bottom: 80px;
+
+}
+
+/*
+td.odd{
+
+  background-color: #ECECEA;
+
+}*/
+
+
+td:hover.shown{
+
+  background-color: #c2c2bc;
+
+}
+
+ul.nav{
+
+  list-style-type: none;
+
+  margin:0;
+
+  padding:0;
+
+  background-color: #3B3738;
+
+  overflow: hidden;
+}
+
+li.navlist{
+
+  display: inline;
+
+}
+
+li a.navlink{
+
+    color:#ECECEA;
+
+    float: left;
+
+    background-color: #3B3738;
+
+    text-decoration: none;
+
+    font-size: 135%;
+
+    text-align: center;
+
+    padding: 14px;
+}
+
+.nav a:hover{
+
+  background-color:  #009973;
+
+}
+
+a#current{
+
+  background-color:  #009973;
+
+}
+
+.avatar{
+
+  height: 180px;
+
+  align:"left";
+
+  border-radius: 50%;
+
+}
+
+.section{
+
+  padding-left: 200px;
+
+  width:500px;
+
+  height: 300px;
+
+  padding-right: 0px;
+
+  margin: 0;
+
+
+}
+
+.avapos{
+
+  padding-left: 20px;
+
+}
+
+ul.normal{
+
+
+
+}
+
+.profile{
+
+  padding-top:40px;
+
+  padding-left: 650px;
+
+  padding-right: 300px;
+}
+
+.font{
+
+  font-size: 120%;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+table.position{
+
+  padding-left: 100px;
+
+}
+
+
+
+a.table{
+
+  text-decoration: none;
+
+  color:#000000;
+}
+
+ a:hover#normal{
+
+  text-decoration: underline;
+
+  color: #009973;
+}
+
+.education{
+
+
+  padding-top:40px;
+
+  padding-right: 450px;
+
+  padding-left: 300px;
+}
+
+.top{
+
+  float:right;
+
+  padding:25px;
+
+  text-decoration:none;
+
+  color:#000;font-family: 'Raleway', sans-serif;
+
+  font-size:150%;
+
+  margin:50px;
+
+  margin-right:300px;
+
+  background-color: #3B3738;
+
+  color:#ECECEA;
+
+}

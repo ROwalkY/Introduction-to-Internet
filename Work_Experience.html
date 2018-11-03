@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="description" content="Online Portfolio">
+   <meta name="keywords" content="Education,portfolio,html,online portfolio">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link rel="icon" href="Elegantthemes-Beautiful-Flat-Browser.ico">
+   <title>Work Experience</title>
+
+   <style media="screen">
+
+
+   body{
+
+     background-image: url(GreyPolygons_1920x1234.jpg);
+
+   }
+
+   h1,h2{
+
+     font-family: 'Raleway', sans-serif;
+
+   }
+
+   p{
+
+     font-family: 'Raleway', sans-serif;
+
+     font-size: 120%;
+
+     padding-left: 50px;
+   }
+
+   ol{
+
+     padding-left: 150px;
+
+     font-family: 'Raleway', sans-serif;
+
+     font-size: 150%;
+
+   }
+
+   li{
+
+     padding: 30px;
+
+
+   }
+
+   pre{
+
+     font-family:Courier New;
+     font-size: 110%;
+     background-color: rgba(255,255,255,.3);
+     padding:30px;
+
+   }
+
+   img{
+
+     background-color:#ffffff;
+     padding-bottom: 10px;
+     width:200px;
+
+   }
+
+   a:hover img{
+
+     transition: .2s ease;
+     width: 250px;
+
+   }
+
+   </style>
+
+ </head>
+ <body>
+
+<!-- Navigation Bar -->
+   <div id="top" class="white" align="left">
+
+     <ul class="nav">
+
+       <li class = "navlist"><a class="navlink"  href="index.html">About me</a></li>
+
+       <li class = "navlist"><a class="navlink"  href="Education.html">Education</a></li>
+
+       <li class = "navlist"><a class="navlink" id="current" href="Work_Experience.html">Work Experience</a></li>
+
+       <li class = "navlist"><a class="navlink" href="Things_I_Like.html">Things I like</a></li>
+
+     </ul>
+
+
+   </div>
+
+   <div class="education">
+
+     <h2>Work Experience<hr color="#3B3738"></h2>
+
+     <p>In the past semaster, I had learned basic concepts of how program works and coded some small C program.</p>
+     <p>Here are some examples:</p>
+
+     <pre>
+        #include &ltstdio.h&gt
+
+        int num_digits(int n)
+        {
+	         int count;
+
+	         while(n > 0){
+		       count++;
+		       n/=10;
+
+          }
+	        return count;
+        }
+
+        int main(void)
+        {
+	         int number;
+
+	          printf("Enter a positive integer: ");
+
+	          scanf("%d", &number);
+
+	          if(number > 0)
+	          {
+  		          printf("The number of the digit(s) : %d\n", num_digits(number) );
+  	        }else{
+
+		            printf("The input number is not a positive integer\n");
+	          }
+	          return 0;
+        }
+</pre>
+
+    <p>This is just a simple C program that can count how many digits that user entered.</p>
+
+    <br>
+    <p>Here are helpful websites for programming:</p>
+
+    <ol>
+      <li><a  href="https://stackoverflow.com/"><img class="list" src="stackoverflow.png" alt="stackoverflow"></a></li>
+      <li><a href="https://github.com/"><img src="github.png" alt="Github"></a></li>
+
+
+    </ol>
+
+   </div>
+
+    <a class="top" href="#top">Top</a>
