@@ -1,6 +1,9 @@
 # Introduction-to-Internet
-Course: 60-205
-<br>
 Basic Web desgin works
-<br>
-Online Portfolio
+<ul>
+  <li><b>Course:</b> 60-205</li>
+  <li><b>Project: </b>Online Portfolio</li>
+  
+</ul>
+
+
